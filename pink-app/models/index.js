@@ -25,7 +25,7 @@ db.once("open", async () => {
     console.log("Mongo connection started on " + db.host + ":" + db.port)
 })
 
-require("./users")
-require("./jobs")
-require("./shifts")
-require("./payPeriods")
+require("./user")
+require("./job")
+require("./shift")
+require("./payPeriod")
