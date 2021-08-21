@@ -5,6 +5,8 @@ import ReportPage from "./components/ReportPage"
 import TaxreceiptPage from "./components/TaxreceiptPage"
 import Button from "@material-ui/core/Button"
 
+import JobPage from "./components/JobPage"
+
 const Router = () => {
     const history = useHistory();
     return (
@@ -18,6 +20,7 @@ const Router = () => {
           <Route path="/profile" component={ProfilePage}/>
           <Route path="/report" component={ReportPage}/>
           <Route path="/submit-receipt" component={TaxreceiptPage}/>
+          <Route path="/job" component={JobPage}/>
         </Switch>
       </div>
     );
