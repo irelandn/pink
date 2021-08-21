@@ -5,18 +5,24 @@ import {Typography} from "@material-ui/core"
 // import {Link} from 'react-router-dom'
 
 const TaxreceiptPage = () =>{
+  const name = 'tash'
     return <Typography variant="h3">
-        This pay period Taxreceipt
+        This pay period Taxreceipt for {name}
+        <Welcome name="I am calling a function" />
         <form>
-  <label>
-    Name:
-    <input type="text" name="name" />
-  </label>
-  <input type="submit" value="Submit" />
-</form>
+          <label>
+              Name:
+              <input type="text" name="name" />
+          </label>
+              <input type="submit" value="Submit" />
+          </form>
 
     
     </Typography>
+}
+
+function Welcome(props){
+  return <h1>hello {props.name}</h1>;
 }
 
 export default TaxreceiptPage
