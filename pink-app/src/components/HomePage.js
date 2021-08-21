@@ -1,12 +1,9 @@
 import {Typography} from "@material-ui/core"
-// import Router from '../Router'
-// import {Link} from 'react-router-dom'
 
-const HomePage = () =>{
+const ProfilePage = () =>{
     return <Typography variant="h3">
-        Pink home page 
-    
+        Welcome
     </Typography>
 }
 
-export default HomePage
+export default ProfilePage
