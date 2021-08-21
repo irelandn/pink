@@ -1,10 +1,40 @@
 const mongoose = require("mongoose")
 
-// Set parameters to allows extra/disallow mongoose functionality
-mongoose.set('useNewUrlParser', true);
-mongoose.set('useFindAndModify', false);
-mongoose.set('useCreateIndex', true);
-mongoose.set('useUnifiedTopology', true);
 
 const taxReceipt = mongoose.model("taxReceipt")
 
+
+// Create and Save a new Tutorial
+exports.create = (req, res) => {
+  
+};
+
+// Retrieve all Tutorials from the database.
+exports.findAll = (req, res) => {
+  
+};
+
+// Find a single Tutorial with an id
+exports.findOne = (req, res) => {
+  
+};
+
+// Update a Tutorial by the id in the request
+exports.update = (req, res) => {
+  
+};
+
+// Delete a Tutorial with the specified id in the request
+exports.delete = (req, res) => {
+  
+};
+
+// Delete all Tutorials from the database.
+exports.deleteAll = (req, res) => {
+  
+};
+
+// Find all published Tutorials
+exports.findAllPublished = (req, res) => {
+  
+};
